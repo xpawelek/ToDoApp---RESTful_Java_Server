@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="efs.task.todoapp.TaskServiceTest" time="0.623" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pault\IdeaProjects\ToDoApplication\target\test-classes;C:\Users\pault\IdeaProjects\ToDoApplication\target\classes;C:\Users\pault\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pault\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\pault\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\pault\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pault\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\pault\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\pault\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\pault\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\pault\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pault\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\pault\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Users\pault\Downloads\openjdk-23.0.2_windows-x64_bin\jdk-23.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\pault\AppData\Local\Temp\surefire12774276938966671072\surefirebooter-20250401193754365_3.jar C:\Users\pault\AppData\Local\Temp\surefire12774276938966671072 2025-04-01T19-37-54_202-jvmRun1 surefire-20250401193754365_1tmp surefire_0-20250401193754365_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\pault\IdeaProjects\ToDoApplication\target\test-classes;C:\Users\pault\IdeaProjects\ToDoApplication\target\classes;C:\Users\pault\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\pault\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\pault\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\pault\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pault\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\pault\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\pault\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\pault\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\pault\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pault\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\pault\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pault"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Users\pault\Downloads\openjdk-23.0.2_windows-x64_bin\jdk-23.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pault\IdeaProjects\ToDoApplication"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\pault\AppData\Local\Temp\surefire12774276938966671072\surefirebooter-20250401193754365_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="pault"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pault\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pault\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="C:\Users\pault\IdeaProjects\ToDoApplication"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\pault\Downloads\openjdk-23.0.2_windows-x64_bin\jdk-23.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\HP\HP One Agent;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Fortect;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\swipl\bin;C:\Program Files\gnuplot\bin;C:\Users\pault\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\pault\AppData\Local\Programs\Python\Launcher\;C:\Users\pault\AppData\Local\Microsoft\WindowsApps;C:\Users\pault\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pault\.dotnet\tools;C:\Users\pault\Downloads\openjdk-23.0.2_windows-x64_bin\jdk-23.0.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="givenOtherUserTask_whenDeleting_thenReturns403Forbidden" classname="efs.task.todoapp.TaskServiceTest" time="0.309">
+    <system-out><![CDATA[19:37:55.613 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.649 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.666 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: janKowalski! Status code 201
+19:37:55.670 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: pawel! Status code 201
+19:37:55.673 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data forbidden for user! Status code 403
+]]></system-out>
+  </testcase>
+  <testcase name="givenOtherUserTask_whenGetting_thenReturns403Forbidden" classname="efs.task.todoapp.TaskServiceTest" time="0.025">
+    <system-out><![CDATA[19:37:55.699 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.702 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.705 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: janKowalski! Status code 201
+19:37:55.708 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: pawel! Status code 201
+19:37:55.711 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data forbidden for user! Status code 403
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidTaskId_whenGetting_thenReturns404NotFound" classname="efs.task.todoapp.TaskServiceTest" time="0.016">
+    <system-out><![CDATA[19:37:55.723 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.726 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.728 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.729 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Task not found
+]]></system-out>
+  </testcase>
+  <testcase name="givenMultipleTasks_whenGettingTasks_thenCorrectCountReturned" classname="efs.task.todoapp.TaskServiceTest" time="0.029">
+    <system-out><![CDATA[19:37:55.743 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.745 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.748 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: janKowalski! Status code 201
+19:37:55.749 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: janKowalski! Status code 201
+19:37:55.752 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: janKowalski! Status code 201
+19:37:55.760 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - All tasks for user: janKowalski has been returned
+]]></system-out>
+  </testcase>
+  <testcase name="givenValidTask_whenDeleting_thenTaskIsRemoved" classname="efs.task.todoapp.TaskServiceTest" time="0.022">
+    <system-out><![CDATA[19:37:55.772 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.774 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.777 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: pawel! Status code 201
+19:37:55.779 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.780 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Task has been deleted with id = c34ebe27-211d-4e19-a598-e289712f813b
+19:37:55.781 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - All tasks for user: pawel has been returned
+]]></system-out>
+  </testcase>
+  <testcase name="givenBlankFields_whenUpdatingTask_thenNoApplyChanges" classname="efs.task.todoapp.TaskServiceTest" time="0.023">
+    <system-out><![CDATA[19:37:55.797 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.799 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.802 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: pawel! Status code 201
+19:37:55.804 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.805 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Task has been updated with id = 60bf25e6-93e5-4954-8ba5-12c4f5d81f4d! Status code 200
+19:37:55.806 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.807 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Get task executed: \todo\task, status code 200
+]]></system-out>
+  </testcase>
+  <testcase name="givenValidUpdate_whenUpdatingTask_thenTaskIsUpdated" classname="efs.task.todoapp.TaskServiceTest" time="0.021">
+    <system-out><![CDATA[19:37:55.819 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.822 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.825 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: pawel! Status code 201
+19:37:55.827 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.828 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Task has been updated with id = 8d031b13-0b30-421b-b0d2-65060cc3782e! Status code 200
+19:37:55.829 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.830 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Get task executed: \todo\task, status code 200
+]]></system-out>
+  </testcase>
+  <testcase name="givenValidTaskId_whenGetting_thenReturns200AndCorrectTask" classname="efs.task.todoapp.TaskServiceTest" time="0.017">
+    <system-out><![CDATA[19:37:55.841 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.843 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.846 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: pawel! Status code 201
+19:37:55.847 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Data gonna be returned based on filter: id
+19:37:55.848 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Get task executed: \todo\task, status code 200
+]]></system-out>
+  </testcase>
+  <testcase name="givenValidAuth_whenCreatingTask_thenReturns201Created" classname="efs.task.todoapp.TaskServiceTest" time="0.017">
+    <system-out><![CDATA[19:37:55.860 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.862 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.865 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - New task has been added for owner: janKowalski! Status code 201
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidAuth_whenCreatingTask_thenReturns401Unauthorized" classname="efs.task.todoapp.TaskServiceTest" time="0.024">
+    <system-out><![CDATA[19:37:55.879 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: janKowalski
+19:37:55.880 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - User added: pawel
+19:37:55.884 [HTTP-Dispatcher] INFO efs.task.todoapp.AppConsoleLogger - Invalid authentication
+]]></system-out>
+  </testcase>
+</testsuite>
