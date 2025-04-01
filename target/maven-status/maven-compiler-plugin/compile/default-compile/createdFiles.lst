@@ -1,0 +1,11 @@
+efs\task\todoapp\AppLogger.class
+efs\task\todoapp\AppConsoleLogger.class
+efs\task\todoapp\ListTaskRepository.class
+efs\task\todoapp\TaskParser.class
+efs\task\todoapp\TaskRepository.class
+efs\task\todoapp\TaskStatus.class
+efs\task\todoapp\User.class
+efs\task\todoapp\NotFoundHandler.class
+efs\task\todoapp\Task.class
+efs\task\todoapp\ToDoApplication.class
+efs\task\todoapp\JsonTaskParser.class
